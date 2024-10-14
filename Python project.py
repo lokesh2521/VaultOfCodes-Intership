@@ -14,7 +14,7 @@ class TodoApp:
 
         # Load and set the background image
         try:
-            image = Image.open(r"C:\Users\lokes\Downloads\code.png")  
+            image = Image.open("image.png")  
             image = image.resize((400, 600), Image.LANCZOS)  
             self.background_image = ImageTk.PhotoImage(image)
         except FileNotFoundError:
